@@ -1,0 +1,40 @@
+[
+  {
+    "employer__id": 1,
+    "name": "Affordable Dumpster Rental",
+    "location": "Tampa, Florida",
+    "start": "2021",
+    "end": "Present",
+    "title": "Data Analyst, UI Developer",
+    "logo": "../assets/adrlogo.png",
+    "description": "I started at Affordable Dumpster Rental in sales. Through hard work, tenacity, and accountability, I was tasked with building a new market in Nashville. During this, my technical skills were highlighted and I was promoted to an Analyst position.",
+    "accomplishments": [
+      "Promotion within 6 months of hire into technical position",
+      "Developed custom reporting for our dispatch, billing, and AR/AP teams to improve productivity by at least 50%",
+      "Designed and Developed a full web app for our hauler partners to improve sales numbers using the React framework and custom CSS."
+    ]
+  },
+  {
+    "employer__id": 2,
+    "name": "Blue Chip Maintenance",
+    "location": "Tampa, Florida",
+    "start": "2020",
+    "end": "2021",
+    "title": "Project Manager",
+    "logo": "../assets/bcm.png",
+    "description": "Nothing yet",
+    "accomplishments": ["Nothing yet"]
+  },
+
+  {
+    "employer__id": 3,
+    "name": "Plumber",
+    "location": "Tampa, Florida",
+    "start": "2017",
+    "end": "2020",
+    "title": "Plumbing Contractor",
+    "logo": "../assets/plumbing.jpg",
+    "description": "Nothing yet",
+    "accomplishments": ["Nothing yet"]
+  }
+]

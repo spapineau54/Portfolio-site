@@ -1,6 +1,7 @@
 import React from 'react'
 import hero from '../headshot.jpg'
 import { Container, Image, Button, Nav } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 const HomeView = () => {
   return (
@@ -13,14 +14,16 @@ const HomeView = () => {
         <Container className='text-center display-4'>
           <p>Howdy. My Name is Shawn.</p>
           <p>I am a Developer.</p>
-          <Nav.Link href='/projects'>
-            <Button
-              className='w-75 rounded-pill  align-self-center'
-              variant='outline-info'
-            >
-              Check Out My Work
-            </Button>
-          </Nav.Link>
+          <LinkContainer to='/resume'>
+            <Nav.Link>
+              <Button
+                className='w-75 rounded-pill  align-self-center'
+                variant='outline-info'
+              >
+                Check Out My Work
+              </Button>
+            </Nav.Link>
+          </LinkContainer>
         </Container>
         <Container fluid as='div'>
           <Image

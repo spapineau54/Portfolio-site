@@ -1,12 +1,11 @@
 import React from 'react'
-import Layout from '../components/Layout'
-import { Card, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import employers from '../employers.json'
 import Employer from '../components/Employer'
 
-const Projects = () => {
+const ResumeView = () => {
   return (
-    <Layout>
+    <>
       <h1 className='text-center mt-5 display-5 '>
         Your Time is Valuable, So It's All Right Here For You!
       </h1>
@@ -22,8 +21,8 @@ const Projects = () => {
         })}
       </Container>
       <h2>See Some of the things I've Worked On</h2>
-    </Layout>
+    </>
   )
 }
 
-export default Projects
+export default ResumeView

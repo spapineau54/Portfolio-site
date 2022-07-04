@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Hauler Portal",
+    "hero": "../assets/haulerportalhero.png",
+    "aux": "../assets/haulerportal2.png",
+    "tech": ["React, Custom CSS"],
+    "description": "This React App solved a problem that we have at my current employer with confirming and denying orders. Our current system relies strictly on email. This application will communicate with our proprietary CRM and automatically move the status of orders, dependent on how the hauler responds in the application."
+  },
+  {
+    "name": "The Noise Box - Venue Website",
+    "hero": "../assets/noiseboxsite.png",
+    "aux": null,
+    "tech": ["Next.js, Custom CSS"],
+    "description": "Volunteering as a dev and webmaster, I built this site for our local heavy music venue, the Noise Box, in Brandon, FL. This site allows for users to purchase merch, consume media from local artists, and purchase tickets to upcoming shows."
+  }
+]

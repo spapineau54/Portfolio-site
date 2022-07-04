@@ -22,8 +22,12 @@
     "end": "2021",
     "title": "Project Manager",
     "logo": "../assets/bcm.png",
-    "description": "Nothing yet",
-    "accomplishments": ["Nothing yet"]
+    "description": "As the lead plumbing project manager, I oversaw service plumbing repairs for rental property companies including First Key Homes, Main Street Renewal, and Offerpad. Duties included taking technician diagnosis, pricing out the job in the form of a bid, and communicating with company personelle to secure the job for Blue Chip.",
+    "accomplishments": [
+      "Having the most plumbing experience on the team, I was the first point of contact for all of our rental property clients.",
+      "Coached and mentored technicians to learn the plumbing trade and make proper repairs in compliance with local, state, and nationwide plumbing code.",
+      "My technical experience allowed me to regularly be in the top 3 of 9 project managers for bids submitted, bids approved, and jobs completed."
+    ]
   },
 
   {
@@ -34,7 +38,10 @@
     "end": "2020",
     "title": "Plumbing Contractor",
     "logo": "../assets/plumbing.jpg",
-    "description": "Nothing yet",
-    "accomplishments": ["Nothing yet"]
+    "description": "Completed home and commercial plumbing repairs in compliance with Florida state plumbing code",
+    "accomplishments": [
+      "Starting as an apprentice, I learned as quickly as I could and was awarded with the responsibility of running my own truck after 1 year of service.",
+      "I pride myself on being customer conscious and sales-minded. By providing the customer options to solve their plumbing problems, I was able to close 90-95% of the service calls I went on, with an average ticket of $1000 USD or more."
+    ]
   }
 ]

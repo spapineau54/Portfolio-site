@@ -2,6 +2,8 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import employers from '../employers.json'
 import Employer from '../components/Employer'
+import Project from '../components/Project'
+import projects from '../projects.json'
 
 const ResumeView = () => {
   return (
@@ -20,7 +22,17 @@ const ResumeView = () => {
           return <Employer employer={employer} />
         })}
       </Container>
-      <h2>See Some of the things I've Worked On</h2>
+      <h2 className='mt-5 text-center border-bottom border-info w-50 mx-auto '>
+        See Some of the things I've Worked On
+      </h2>
+      <Container
+        fluid
+        className='d-flex flex-column flex-lg-row justify-content-between'
+      >
+        {projects.map((project) => {
+          return <Project project={project} />
+        })}
+      </Container>
     </>
   )
 }

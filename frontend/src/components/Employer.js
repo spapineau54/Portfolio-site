@@ -13,7 +13,7 @@ const Employer = ({ employer }) => {
 
   return (
     <Card
-      style={{ width: '100vw', borderRadius: '20px' }}
+      style={{ maxWidth: '100vw', borderRadius: '20px' }}
       isExpanded={isExpanded}
       className='m-3   bg-dark text-white shadow'
     >
@@ -22,7 +22,6 @@ const Employer = ({ employer }) => {
           <Card.Img
             style={{
               maxWidth: '100%',
-              minHeight: '55vh',
               overflow: 'hidden',
               padding: '32px',
             }}

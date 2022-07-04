@@ -5,7 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 const Header = () => {
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar bg='dark' variant='dark' expand='lg' fixed='top' collapseOnSelect>
         <Container>
           <Navbar.Brand href='/'>Shawn Papineau</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />

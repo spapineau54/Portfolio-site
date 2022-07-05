@@ -13,7 +13,7 @@ const Employer = ({ employer }) => {
 
   return (
     <Card
-      style={{ maxWidth: '100vw', borderRadius: '20px' }}
+      style={{ borderRadius: '20px' }}
       isExpanded={isExpanded}
       className='m-3   bg-dark text-white shadow'
     >

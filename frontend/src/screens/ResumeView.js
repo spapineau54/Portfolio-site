@@ -7,7 +7,7 @@ import projects from '../projects.json'
 
 const ResumeView = () => {
   return (
-    <Container>
+    <Container fluid>
       <h1 className='w-80   text-center  mt-5 display-5 '>
         Your Time is Valuable.
       </h1>

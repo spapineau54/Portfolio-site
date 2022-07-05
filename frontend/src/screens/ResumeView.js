@@ -8,12 +8,15 @@ import projects from '../projects.json'
 const ResumeView = () => {
   return (
     <>
-      <h1 className='text-center mt-5 display-5 '>
-        Your Time is Valuable, So It's All Right Here For You!
+      <h1 className='w-80  text-lg-center  mt-5 display-5 '>
+        Your Time is Valuable.
       </h1>
-      <h3 className='text-center p-4'>
-        <i>No Download Required</i>
-      </h3>
+      <Container style={{ fontSize: '1rem' }} fluid className='text-center'>
+        <i className='fa-solid fa-circle-arrow-down px-2'></i>
+        <span>Interact Below to see my work</span>
+        <i className='fa-solid fa-circle-arrow-down px-2'></i>
+      </Container>
+
       <Container
         fluid
         className='d-flex flex-column flex-lg-row justify-content-between p-3'

@@ -13,7 +13,7 @@ const Header = () => {
             <Nav className='ml-auto'>
               <LinkContainer to='/resume'>
                 <Nav.Link>
-                  <i class='fa-solid fa-laptop-code p-1'></i> Experience
+                  <i className='fa-solid fa-laptop-code p-1'></i> Experience
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/about'>
@@ -23,7 +23,7 @@ const Header = () => {
               </LinkContainer>
               <LinkContainer to='/contact'>
                 <Nav.Link className='mx-2'>
-                  <i class='fa-solid fa-envelope p-1'></i> Get In Touch
+                  <i className='fa-solid fa-envelope p-1'></i> Get In Touch
                 </Nav.Link>
               </LinkContainer>
             </Nav>

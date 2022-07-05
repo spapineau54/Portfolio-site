@@ -17,7 +17,7 @@ const ContactView = () => {
           target='_blank'
           rel='noreferrer'
         >
-          <i class='fa-solid fa-envelope'></i>
+          <i className='fa-solid fa-envelope'></i>
 
           <h2>Email</h2>
         </a>

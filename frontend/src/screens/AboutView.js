@@ -4,29 +4,28 @@ import CardHeader from 'react-bootstrap/esm/CardHeader'
 
 const AboutView = () => {
   return (
-    <Container className='p-5'>
-      <h1 className='text-center'>
-        Bringing Modern Solutions to your Business
+    <Container fluid className='p-5'>
+      <h1 className='w-70 text-lg-center mx-auto border-bottom border-info'>
+        Bringing Modern Solutions to Your Business
       </h1>
 
-      <Container className='d-flex flex-column flex-lg-row py-5'>
+      <Container
+        fluid
+        className='d-flex flex-column flex-lg-row justify-content-between py-5'
+      >
         <Card
           style={{
-            maxWidth: '600px',
             borderRadius: '15px',
           }}
-          className='m-3    p-3 bg-dark text-white shadow'
+          className='m-3 w-100 p-3 bg-dark text-white shadow'
         >
           <CardHeader>
-            <h3 style={{ color: 'white' }}>
-              Self-Taught and Competent in these Technologies:
-            </h3>
+            <span style={{ color: 'white', fontSize: '1.5rem' }}>
+              Competency in these Technologies:
+            </span>
           </CardHeader>
           <Card.Body>
-            <ul
-              style={{ fontSize: '1.5rem' }}
-              className=' p-4 d-flex flex-wrap flex-lg-column-wrap justify-content-between align-content-center  list-unstyled'
-            >
+            <ul style={{ fontSize: '1.5rem' }} className=' list-unstyled'>
               <li>
                 <i class='fa-brands fa-js-square p-3'></i>Javascript
               </li>
@@ -59,22 +58,24 @@ const AboutView = () => {
         </Card>
         <Card
           style={{
-            maxWidth: '600px',
             borderRadius: '15px',
           }}
-          className='m-3    p-3 bg-dark text-white shadow'
+          className='m-3 w-100 p-3 bg-dark text-white shadow'
         >
           <CardHeader>
-            <h2 style={{ color: 'white' }}>Other Related Skills</h2>
+            <span style={{ color: 'white', fontSize: '1.5rem' }}>
+              Other Related Skills:
+            </span>
           </CardHeader>
           <Card.Body>
-            <ul
-              style={{ fontSize: '1.5rem' }}
-              className=' p-4 d-flex flex-wrap flex-shrink-1 flex-row flex-lg-column-wrap justify-content-between  list-unstyled'
-            >
+            <ul style={{ fontSize: '1.5rem' }} className=' list-unstyled'>
               <li>
                 <i class='fa-solid fa-database p-3'></i>
                 SQL Server Management
+              </li>
+              <li>
+                <i class='fa-brands fa-figma p-3'></i> UI Design and Prototyping
+                with Figma
               </li>
               <li>
                 <i class='fa-brands fa-windows p-3'></i>
@@ -94,24 +95,32 @@ const AboutView = () => {
           </Card.Body>
         </Card>
       </Container>
-      <h2 className='text-center border-bottom border-info'>
+      <h1 className=' w-70 text-lg-center mx-auto border-bottom border-info'>
         Soft Skills to Elevate the Tech Skills
-      </h2>
+      </h1>
       <ul className='p-3'>
-        <li>Management of 10+ team members</li>
+        <li>Management of 10+ team members.</li>
+        <li>
+          100% Self Taught Developer with hundreds of hours invested on top of
+          full time employment.
+        </li>
         <li>
           Remote communication strategies (Google Chats, Email, Zoom Office,
           Whiteboards, Notion, Slack, Clickup)
         </li>
-        <li>Organization and Prioritization of Work</li>
+        <li>
+          Strong Organization and Prioritization skills with utilization of
+          Trello and Notion
+        </li>
+
         <li>
           Daily Investment into learning new skills, languages, and technologies
           to make myself ever growing in value as a member of the tech industry
         </li>
         <li>
           <strong>
-            A strong passion for tech, programming, and creating technology to
-            make our lives easier, safer, and enjoyable.
+            A passion for tech, programming, and creating technology to make our
+            lives easier, safer, and enjoyable.
           </strong>
         </li>
       </ul>

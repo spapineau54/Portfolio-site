@@ -11,13 +11,13 @@ const HomeView = () => {
         as='div'
         className='d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center p-5'
       >
-        <Container className='text-center display-4'>
-          <p>Howdy. My Name is Shawn.</p>
+        <Container className='text-lg-center display-4'>
+          <p>Howdy, my name is Shawn.</p>
           <p>I am a Developer.</p>
-          <LinkContainer to='/resume'>
+          <LinkContainer className='mw-75 mx-auto' to='/resume'>
             <Nav.Link>
               <Button
-                className='w-75 rounded-pill  align-self-center'
+                className='w-100 rounded-pill  align-self-center'
                 variant='outline-info'
               >
                 Check Out My Work
@@ -27,7 +27,7 @@ const HomeView = () => {
         </Container>
         <Container fluid as='div'>
           <Image
-            style={{ borderRadius: '25px' }}
+            style={{ borderRadius: '25px', margin: '15px auto' }}
             className='h-100 w-100'
             src={hero}
           />

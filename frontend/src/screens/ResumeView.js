@@ -7,8 +7,8 @@ import projects from '../projects.json'
 
 const ResumeView = () => {
   return (
-    <>
-      <h1 className='w-80  text-lg-center  mt-5 display-5 '>
+    <Container>
+      <h1 className='w-80   text-center  mt-5 display-5 '>
         Your Time is Valuable.
       </h1>
       <Container style={{ fontSize: '1rem' }} fluid className='text-center'>
@@ -25,8 +25,8 @@ const ResumeView = () => {
           return <Employer employer={employer} />
         })}
       </Container>
-      <h2 className='mt-5 text-center border-bottom border-info w-50 mx-auto '>
-        See Some of the things I've Worked On
+      <h2 className='mt-5 p-3 text-center border-bottom border-info w-90 mx-auto '>
+        Some of the things I've Worked On.
       </h2>
       <Container
         fluid
@@ -36,7 +36,7 @@ const ResumeView = () => {
           return <Project project={project} />
         })}
       </Container>
-    </>
+    </Container>
   )
 }
 
